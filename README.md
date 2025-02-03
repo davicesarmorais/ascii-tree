@@ -19,7 +19,7 @@ ascii-tree/
 └── utils.py
 ```
 ---
-## Como Usar
+## Como Usar (Recomendado)
 
 1. **Clone o repositório:** <br>
 `git clone https://github.com/davicesarmorais/ascii-tree.git`
