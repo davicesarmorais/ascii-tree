@@ -61,7 +61,7 @@ def request(url: str) -> dict:
     
     
 def __tree_str(tree: list, current: dict, indent: str = "") -> str:
-    node_str = f"{indent}├── {current['path'].split("/")[-1]}{'/' if current['type'] == 'tree' else ''}\n"
+    node_str = f"{indent}├── {current['path'].split('/')[-1]}{'/' if current['type'] == 'tree' else ''}\n"
 
     if current["type"] == 'blob':
         return node_str
