@@ -36,12 +36,12 @@ ascii-tree/
     2. Edite ele e coloque isso:
         ```
         @echo off
-        python caminho_onde_clonou_o_projeto\ascii-tree\main.py %*
+        python caminho_onde_clonou_o_projeto\ascii-tree\atree.py %*
         ```
         *Ex:* 
         ```
         @echo off
-        python C:\Users\davic\code\ascii-tree\main.py %*
+        python C:\Users\davic\code\ascii-tree\atree.py %*
         ```
     3. Coloque o caminho do atree.bat no path do windows:
         ```
